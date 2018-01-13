@@ -1,0 +1,39 @@
+.tab {
+  background: #f2f2f2;
+  width: 45%;
+  margin: auto;
+  border: 1px solid #cccccc;
+  font-family: "Arial", "sans serif";
+  font-size: 18px;
+  color: #333333;
+}
+
+.tab-nav {
+  background: #cccccc;
+}
+
+.tab-nav-btn {
+  background: #cccccc;
+}
+
+.tab-content {
+  padding: 20px;
+  display: none;
+}
+
+.tab_btn {
+  margin: 0;
+  padding: 20px;
+  border: none;
+  font-family: "Arial", "sans serif";
+  font-size: 18px;
+  color: #333333;
+}
+
+.tab_btn:hover {
+  background: #f2f2f2;
+}
+
+.active {
+  background: #f2f2f2;
+}

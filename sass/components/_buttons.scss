@@ -1,0 +1,17 @@
+.tab_btn
+{
+	margin: 0;
+	padding: 20px;
+	border: none;
+	@include tab_basic();
+}
+
+.tab_btn:hover
+{
+	background: $bg_color;
+}
+
+.active
+{
+	background: $bg_color;
+}

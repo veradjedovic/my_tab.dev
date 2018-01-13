@@ -1,20 +1,20 @@
 $(document).ready(function(){
 
-	$(".tab-content").first().css("display", "block");
-	$(".tab-nav-btn").first().addClass("active");
 	$(".tab").animate({
 		width: "70%"
-	}, 1500, "swing");
+	}, 1000, "swing");
+	$(".tab-content").first().css("display", "block").animate({padding: "30"}, 2000, "swing");
+	$(".tab-nav-btn").first().addClass("active");
 
 	$("button").click(function(){
 
-		$(".tab-content").css("display", "none");
+		$(".tab-content").css("display", "none").animate({padding: "20"}, 1);
 		$(".tab-nav-btn").removeClass("active");
 
 		var id = $(this).data("id");
 
 		$(this).addClass("active");
-		$("#" + id).css("display", "block").animate({transition: ""}, 2000);
+		$("#" + id).css("display", "block").animate({padding: "30"}, 2000, "swing");
 
 		console.log($(this));
 	});
